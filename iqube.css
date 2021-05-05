@@ -1,0 +1,501 @@
+#topbar
+{
+	background-color: black;
+	height: 10px;
+	width: 100% 
+
+}
+body
+{
+
+	background-color:white;
+}
+#con1
+{
+	background-color: white;
+	height: 900px;
+	width:70%;
+	margin:0px auto;
+}
+#bag1
+{
+	background-color: white;
+	height: 80px;
+	width: 100%
+}
+#bag1 img 
+{
+	height: 79px;
+	width: 300px
+	margin-top:35px;
+
+
+}
+
+#bag1 ul
+{
+	float: right;
+	margin-top: 25px;
+}
+#bag1 ul li
+{
+	display: inline;
+	margin-right: 20px;
+}
+#bag1 ul li a
+{
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	font-style: inherit;
+}
+#bag1 ul li img
+{
+	height: 39px;
+	width: 100px
+	margin-top:35px;
+
+}
+#bag2
+{
+	height: 900px;
+	width: 95%;
+	margin: 0px auto;
+	background:  #313131;
+}
+.slider
+{
+	height:900px; 
+	width:100%;
+	margin-bottom: 25px;
+	background: url(iqp4.jpg);
+	animation:slide 20s infinite;
+}
+@keyframes slide
+{
+	25%
+	{
+		background: url(iqp4.jpg);
+	}
+	50%
+	{
+		background: url(iqp3.jpg);
+	}
+	75%
+	{
+		background: url(iqp2.jpg);
+	}
+	100%
+	{
+		background: url(iqp1.jpg);
+	}
+}
+#col1
+
+{
+	height: 600px;
+	width: 32%;
+	background-color: orange;
+	float: left;
+	margin-right: 2%;
+	
+}
+#col2
+{
+	height: 600px;
+	width: 32%;
+	background-color: #F5E814;
+	float: left;
+
+}
+#col3
+{
+	height: 600px;
+	width: 32%;
+	background-color: green;
+	float: right;
+}
+.head1
+{
+	color: white;
+	text-decoration: all;
+	font-size: 40px;
+	margin-left: 20px;
+}
+.head11
+{
+	color: white;
+	font-size: 30px;
+	background-color: black;
+	text-decoration: none;
+}
+.read1
+{
+	font-size: 30px;
+	transform-style:flat;
+	text-shadow:initial;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 8px;
+	margin-left: 20px;
+	margin-top: 40px;
+
+}
+.head2
+{
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+	margin-left: 20px;
+}
+.head22
+{
+	color: white;
+	font-size: 40px;
+	background-color: black;
+	text-decoration: none;
+}
+.head222
+{
+	color: white;
+	font-size: 40px;
+	background-color: black;
+	text-decoration: none;
+}
+.head2222
+{
+	color: white;
+	font-size: 35px;
+	background-color: black;
+	text-decoration: none;
+}
+.head3333
+{
+	color: white;
+	font-size: 28px;
+	background-color: black;
+	text-decoration: none;
+}
+
+.read2
+{
+	font-size: 30px;
+	transform-style:flat;
+	text-shadow:initial;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 8px;
+	margin-left: 20px;
+	margin-top: 40px;
+
+}
+.head3
+{
+	color: white;
+	text-decoration: all;
+	font-size: 45px;
+	margin-left: 20px;
+}
+.read3
+{
+	font-size: 30px;
+	transform-style:flat;
+	text-shadow:initial;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 8px;
+	margin-left: 20px;
+	margin-top: 40px;
+
+}
+.p1
+{
+	font-size: 19px;
+
+	margin-left: 20px;
+}
+.p2
+{
+	font-size: 31px;
+
+	margin-left: 20px;
+}
+.p3
+{
+	font-size: 18px;
+
+	margin-left: 20px;
+}
+#footer
+{
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	clear: both;
+
+
+
+}
+.p4
+{
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+	float: right;
+	margin: 9px auto;
+	margin-right: 8px;
+}
+#pop
+{
+	height: 190px;
+	width: 100%;
+	border: 2px solid gray;
+	border-radius: 15px;
+	box-shadow: inset -4px -4px white;
+
+	
+	background-color:white;
+}
+#pop span
+{
+	
+
+
+	text-decoration: none;
+
+	font-style: italic;
+	
+
+
+
+
+
+}
+.pop1
+{
+	color: red;
+	font-size: 80px;
+	position: relative;
+	letter-spacing: 3px;
+	font-weight: 700;
+	
+	margin-left: 90px;
+
+}
+.pop2
+{
+	color: black;
+	font-size: 30px;
+	animation: text 3s 20;
+
+
+
+}
+@keyframes text{
+	0%{
+		color: white;
+		margin-bottom: -20px;
+	}
+	50%{
+		letter-spacing: 10px;
+		margin-bottom: -20px;
+	}
+	75%{
+		letter-spacing: 3px;
+		margin-bottom: -20px;
+	}
+}
+#close
+{
+	float: left;
+	color: white;
+	text-decoration: blink;
+	background-color: red;
+}
+.d1
+{
+	font-size: 30px;
+	text-shadow: inherit;
+	text-decoration: inherit;
+	display: inline-block;
+	font-style: italic;
+	float: left;
+	color: black;
+
+}
+.d2
+{
+	font-size: 30px;
+	text-shadow: inherit;
+	text-decoration: inherit;
+	display: inline-block;
+	font-style: italic;
+	float: right;
+	color: black;
+
+}
+.d3
+{
+	font-size: 30px;
+	text-shadow: inherit;
+	text-decoration: inherit;
+	display: inline-block;
+	font-style: italic;
+	float: left;
+	color: black;
+
+}
+.d4
+{
+	font-size: 30px;
+	text-shadow: inherit;
+	text-decoration: inherit;
+	display: inline-block;
+	font-style: italic;
+	float:right;
+	margin-right: 63px;
+	color: black;
+
+}
+#domainsslide
+{
+	width: 600px;
+	height: 500px;
+	background: url(d1.jpg);
+	animation: domain 10s infinite;
+	margin: 0px auto;
+}
+@keyframes domain
+{
+	16%
+	{
+		background: url(d1.jpg);
+	}
+	32%
+	{
+		background: url(d2.jpg);
+	}
+	48%
+	{
+		background: url(d3.jpg);
+	}
+	64%
+	{
+		background: url(d4.jpg);
+	}
+	80%
+	{
+		background: url(d5.jpg);
+	}
+	100%
+	{
+		background: url(d6.jpg);
+	}
+}
+#logo
+{
+	height: 100px;
+	width: 1000px;
+	background-color: white;
+	margin-top: 200px;
+}
+.l1
+{
+	font-size: 20px;
+	text-shadow: inherit;
+	text-decoration: none;
+	display: inline-block;
+	font-style: italic;
+	
+	color: black;
+	height:60px; 
+	width:70px;
+	font-weight: 700;
+	
+}
+.l2
+{
+	font-size: 20px;
+	text-shadow: inherit;
+	text-decoration: none;
+	display: inline-block;
+	font-style: italic;
+	
+	color: black;
+	
+	margin-top: 40px;
+	margin-right: 90px;
+	font-weight: 700;
+
+}
+.l3
+{
+	font-size: 20px;
+	text-shadow: inherit;
+	text-decoration: none;
+	display: inline-block;
+	font-style: italic;
+	
+	color: black;
+	height:60px; 
+	width:70px;
+	font-weight: 700;
+	
+
+
+}
+.l4
+{
+	font-size: 20px;
+	text-shadow: inherit;
+	text-decoration: none;
+	display: inline-block;
+	font-style: italic;
+	margin-top: 15px;
+	color: black;
+	height:60px; 
+	width:70px;
+	margin-right: 10px;
+	float: right;
+	font-weight: 700;
+
+
+}
+.l2p
+{
+	height:50px; 
+	width:50px;
+	margin-left: 90px;
+
+}
+.l3p
+{
+	height:50px; 
+	width:50px;
+	margin-right: 0px;
+
+}
+#para
+{
+	height:550px ;
+	width:100%;
+	background-color:#ff4d4d;
+	margin-top: 100px;
+}
+.ih1
+{
+	font-size: 60px;
+	font-style: italic;
+	text-shadow: inherit;
+
+}
+.ip1
+{
+	font-size: 40px;
+	font-style: italic;
+
+}
+
